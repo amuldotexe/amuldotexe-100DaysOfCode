@@ -6,15 +6,9 @@ const App = () => {
   return (
     <div>
       <h1>Adopt Me!</h1>
-      <Pet name="Boski" animal="Dog" place="Durg">
-        {" "}
-      </Pet>
-      <Pet name="Nandini" animal="Cow" place="Bhilai">
-        {" "}
-      </Pet>
-      <Pet name="Gaura" animal="Cow" place="Bengaluru">
-        {" "}
-      </Pet>
+      <Pet name="Boski" animal="Dog" place="Durg" />
+      <Pet name="Nandini" animal="Cow" place="Bhilai" />
+      <Pet name="Gaura" animal="Cow" place="Bengaluru" />
     </div>
   );
 };
