@@ -1,3 +1,9 @@
+- [Queries which will aid revision of what we studied](#queries-which-will-aid-revision-of-what-we-studied)
+  * [Why is type equals module used in App js script?](#why-is-type-equals-module-used-in-app-js-script-)
+  * [What is the 2 line interpretation of useState](#what-is-the-2-line-interpretation-of-usestate)
+  * [What is a State in React](#what-is-a-state-in-react)
+  * [HTML - what is onClick in button element](#html---what-is-onclick-in-button-element)
+
 ## Queries which will aid revision of what we studied
 
 I KEEP six honest serving-men
@@ -5,7 +11,7 @@ I KEEP six honest serving-men
 Their names are What and Why and When 
 And How and Where and Who.
 
-### Why is type = module used in App js script?
+### Why is type equals module used in App js script?
 ```javascript
 
 <script type="module" src="./App.js"></script>
