@@ -12,8 +12,11 @@ And How and Where and Who.
 ## Queries which will aid revision of what we studied
 
 I KEEP six honest serving-men
+
 (They taught me all I knew);
+
 Their names are What and Why and When 
+
 And How and Where and Who.
 
 ### Why is type equals module used in App js script?
