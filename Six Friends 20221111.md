@@ -4,6 +4,11 @@
   * [What is a State in React](#what-is-a-state-in-react)
   * [HTML - what is onClick in button element](#html---what-is-onclick-in-button-element)
 
+I keep six honest serving-men
+(They taught me all I knew);
+Their names are What and Why and When 
+And How and Where and Who.
+
 ## Queries which will aid revision of what we studied
 
 I KEEP six honest serving-men
