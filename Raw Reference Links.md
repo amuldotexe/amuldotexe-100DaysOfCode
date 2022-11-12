@@ -1,3 +1,6 @@
+
+# Unclassified
+
 Github Cheatsheet
 
 https://education.github.com/git-cheat-sheet-education.pdf
@@ -14,3 +17,33 @@ https://browserslist.dev/
 Markdown Cheatsheet
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Strict Mode
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+
+
+## Javascript Syntax
+
+### module keyword
+
+https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/ 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#see_also +
+
+
+
+## People or Pages to follow
+
+### Pages
+
+https://twitter.com/codecartoons 
+
+### People
+
+https://twitter.com/linclark 
+
+## Useful hacks
+
+### Github
+
