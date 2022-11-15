@@ -1,10 +1,6 @@
-- [Queries which will aid revision of what we studied](#queries-which-will-aid-revision-of-what-we-studied)
-  * [Why is type equals module used in App js script?](#why-is-type-equals-module-used-in-app-js-script-)
-  * [What is the 2 line interpretation of useState](#what-is-the-2-line-interpretation-of-usestate)
-  * [What is a State in React](#what-is-a-state-in-react)
-  * [HTML - what is onClick in button element](#html---what-is-onclick-in-button-element)
 
-## Queries which will aid revision of what we studied
+
+## Broad queries to aid revision of content which was explored
 
 I keep six honest serving-men
 
@@ -51,7 +47,6 @@ Reference : https://beta.reactjs.org/learn/state-a-components-memory
 <button onClick={handleClick}> 
 
 ```
-onClick is now defined as handleClick because the definition of handleClick is being passed as a value to onClick
 
 
 
@@ -72,3 +67,12 @@ onClick is now defined as handleClick because the definition of handleClick is b
     setPets(json.pets);
   }
 ```
+
+## Yes No Why Specific Queries
+
+### Is JSX stricter than HTML
+Yes, You have to close tags like <br />. Your component also can’t return multiple JSX tags. You have to wrap them into a shared parent, like a <div>...</div> or an empty <>...</> 
+
+### JSX basiclly helps you put markup in JS code but how do you escap back to JS
+By using {} for all expressions which need to be evaluated in JS
+
