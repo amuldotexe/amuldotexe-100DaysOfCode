@@ -24,6 +24,19 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 Convert HTML to JSX
 https://transform.tools/html-to-jsx 
 
+Single Responsibility Principle
+https://en.wikipedia.org/wiki/Single-responsibility_principle 
+
+Test Driven Development
+ https://www.codecademy.com/article/tdd-red-green-refactor
+
+## html
+
+### tr rows
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+
+
+
 ## Javascript Syntax
 
 ### module keyword
