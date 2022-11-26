@@ -36,8 +36,43 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#see_also
 
 ```
 
-### What is a State in React
+### Show me a simple example of props & useState
 A component-specific memory is called State
+
+Read this saml
+
+```javascript
+import { useState } from 'react';
+
+function MyButton({ p_count, p_onClick }) {
+  return (
+    <button onClick={p_onClick}>
+      Clicked {p_count} times
+    </button>
+  );
+}
+
+export default function MyApp() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+  function handleClick2() {
+    setCount(count+1.01);
+  }
+
+  return (
+    <div>
+      <h1>Counters that update together</h1>
+      <MyButton p_count={count} p_onClick={handleClick} />
+      <MyButton p_count={count} p_onClick={handleClick2} />
+    </div>
+  );
+}
+
+```
+Code Sandbox link: https://codesandbox.io/s/rkwfls 
 
 
 Reference : https://beta.reactjs.org/learn/state-a-components-memory 
@@ -47,6 +82,28 @@ Reference : https://beta.reactjs.org/learn/state-a-components-memory
 <button onClick={handleClick}> 
 
 ```
+
+
+### Explain conditional rendering in JSX
+
+```javascript
+let content;
+if (isLoggedIn) {
+  content = <AdminPanel />;
+} else {
+  content = <LoginForm />;
+}
+return (
+  <div>
+    {content}
+  </div>
+);
+
+```
+What did we just do?
+We first assigned a component to a JS object based on a condition.
+We then rendered it in JSX by escaping back to JS using {content}
+
 
 
 
